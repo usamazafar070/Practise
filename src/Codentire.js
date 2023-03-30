@@ -15,6 +15,7 @@ import ComponentA from "./Components/Context2/ComponentA";
 import Services from "./Components/Body/Services";
 import Signup from "./Components/Formik Form/Login System/Signup";
 import NewLogin from "./Components/Formik Form/Login System/NewLogin";
+import Courses from "./Pages/Courses";
 const Codentire = () => {
   // Array
   let demoArray = [
@@ -37,7 +38,8 @@ const Codentire = () => {
       <Routes>
         <Route path="/services" element={<Services />} />
         <Route path="/signup" element={<Signup/>} />
-        <Route path="/newlogin" element={<NewLogin/>}/>
+        <Route path="/newlogin" element={<NewLogin/>} />
+        <Route path="/courses" element={<Courses/>}/>
       </Routes>
       {/* <PropsComponent array={demoArray} />
       <StateClassComponent />

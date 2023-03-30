@@ -19,6 +19,12 @@ const Header = () => {
           <Link to="/signup" style={{ textDecoration: "none", color: "black" }}>
             <li>Forms</li>
           </Link>
+          <Link
+            to="/courses"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <li>Courses</li>
+          </Link>
         </ul>
       </nav>
     </div>

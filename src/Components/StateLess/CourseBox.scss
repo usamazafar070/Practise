@@ -1,0 +1,57 @@
+// Mixins
+@mixin fontStyle() {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.courseBox {
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.281);
+      transition: 0.4s ease-in;
+    }
+  .courseWrapper {
+    padding: 50px 30px;
+    background-color: aquamarine;
+    border-radius: 0px 0px 20px 20px;
+
+    &:hover{
+        background-color: orange;
+        transition: 0.4s ease-in;
+    }
+    
+  }
+
+  .courseTitle {
+    font-size: 25px;
+    font-weight: bold;
+    @include fontStyle();
+  }
+
+  .courseDetail {
+    font-size: 16px;
+    @include fontStyle();
+  }
+
+  .coursePrice {
+    font-weight: bold;
+    @include fontStyle();
+  }
+
+  .courseBtn {
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 0px 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: aquamarine;
+    @include fontStyle();
+
+    &:hover {
+      background-color: rgba(220, 20, 60, 0);
+      border: 2px solid crimson;
+      color: crimson;
+      transition: 0.4s ease-in;
+    }
+  }
+}

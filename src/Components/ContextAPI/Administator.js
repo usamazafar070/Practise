@@ -16,4 +16,4 @@ const Administator = () => {
   );
 }
 
-export default Administator
+export default Administator;
