@@ -19,7 +19,7 @@ import CourseBox from '../Components/StateLess/CourseBox';
         courseTitle: "Bootstrap",
         courseDescription:
           "Lorem ipsum dolor sit amet consectetur adipiscing elit primis enim quis pharetra, nostra nisi lacus ac mi potenti cursus urna.",
-        price: 500,
+        price: 400,
       },
       {
         id: 2,
